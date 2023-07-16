@@ -7,16 +7,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap"
       rel="stylesheet"
     />
-    <title>My first counter app</title>
+    <title>Счетчик бассейнов</title>
   </head>
   <body>
     <div class="container">
-      <p class="counter">0</p>
-      <button class="add__value">+1 Бассейн</button>
-      <button class="reset">Сбросить</button>
+      <p id="counterValue" class="counter__value">0</p>
+      <button id="addValueButton" dataset-pool="1" class="add__value">
+        +1 Бассейн
+      </button>
+      <button id="resetButton" class="reset">Сбросить</button>
     </div>
 
     <script src="index.js"></script>
