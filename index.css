@@ -1,7 +1,7 @@
 body {
   font-family: "Manrope", sans-serif;
   font-weight: 700;
-  background: rgb(210, 206, 201);
+  background: rgba(255, 255, 255, 1);
 }
 
 .container {
@@ -29,14 +29,25 @@ button {
   width: 500px;
   height: 100px;
   border-radius: 20px;
-  background: #4191ff;
   color: #fff;
+  cursor: pointer;
 }
 
-.add_value {
+.add__value {
   margin-bottom: 36px;
+  background: #4191ff;
+}
+
+.add__value:hover {
+  background: #fff;
+  color: #4191ff;
 }
 
 .reset {
   background: #d45366;
+}
+
+.reset:hover {
+  background: #fff;
+  color: #d45366;
 }
